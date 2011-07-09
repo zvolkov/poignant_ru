@@ -1,5 +1,5 @@
 ##Глава 1. Краткое содержание всей книги.##
-![](/images/chapter.poignant.guide-1.jpg)
+![](images/chapter.poignant.guide-1.jpg)
 
 ![Удивительные истории](images/about.the.poignant.guide-1.png)
 
