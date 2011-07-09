@@ -2,8 +2,8 @@
 ==========================
 
 Оригинал: Why's (Poignant) Guide to Ruby © 2003 why the lucky stiff  
-Перевод: Андрей Волков
-
+Перевод: Андрей Волков  
+Оригинал доступен по адресу: <http://mislav.uniqpath.com/poignant-guide/>
 
 
 
