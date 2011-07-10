@@ -3,6 +3,7 @@ html : book/* templates/*
 	mkdir html
 	mkdir html/images
 	cp book/images/* html/images/
+	cp templates/guide.css html/
 	#ch1
 	cat templates/header.html > html/ch1.html
 	markdown book/ch1.markdown >> html/ch1.html
