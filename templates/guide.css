@@ -2,25 +2,24 @@ body {
     font-family: Utopia, Georgia, Times, serif;
     background-color: gray;
 }
-h1 {
+.page h1 {
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
 }
-h2 {
+.page h2 {
     border-bottom: solid 1px gray;
     margin-top: 40px;
     margin-bottom: 20px;
 }
-img {
+.page img {
     display:block;
     margin:0 auto;
 }
-pre {
+.page pre {
     background-color: #FFFEF9;
     color: #936;
     margin-left: 40px;
-    margin-right: 40px;
     font-weight: bolder;
     border: solid 1px #C9B;
     padding: 5px;
@@ -34,4 +33,7 @@ pre {
 }
 #next {
     text-align:right;
+}
+.page p {
+    line-height: 150%;
 }
