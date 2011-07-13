@@ -1,0 +1,10 @@
+open ftp.zvolkov.com
+cd poignant_ru
+lcd html
+prompt
+binary
+mput "*.*"
+cd images
+lcd images
+mput "*"
+bye

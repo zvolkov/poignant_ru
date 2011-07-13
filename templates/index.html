@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Душевный Учебник по Руби</title>
+  <style type="text/css">
+  body {
+    color: white;
+    background: url(images/2007-cover-pale.jpg);
+    text-align: center;
+    font-family: verdana, arial, sans-serif;
+    margin: 0; padding: 0;
+  }
+  a img {
+    border: none;
+  }
+  #cover {
+    margin: 0 auto;
+    padding: 20px 150px 20px 0px;
+    background: url(images/2007-cover-spacer.jpg);
+    z-index: 1;
+    overflow: hidden;
+  }
+  #cover img {
+    margin-bottom: -90px;
+  }
+  </style>
+  <script language="Javascript">
+  function openBook() {
+    document.getElementById("cover-image").src = "images/2007-cover-open.jpg";
+  }
+  function shutBook() {
+    document.getElementById("cover-image").src = "images/2007-cover-shut.jpg";
+  }
+  </script>
+</head>
+<body>
+  <div id="cover">
+    <a href="ch1.html" onmouseover="openBook()" onmouseout="shutBook()"><img id="cover-image" src="images/2007-cover-shut.jpg" /></a>
+  </div>
+</body>
+</html>

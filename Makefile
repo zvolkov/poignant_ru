@@ -4,6 +4,7 @@ html : book/* templates/*
 	mkdir html/images
 	cp book/images/* html/images/
 	cp templates/guide.css html/
+	cp templates/index.html html/
 	#ch1
 	cat templates/header.html > html/ch1.html
 	markdown book/ch1.markdown >> html/ch1.html
@@ -17,5 +18,7 @@ html : book/* templates/*
 	markdown book/ch3.markdown >> html/ch3.html
 	sed -e "s/chX/ch4/g" templates/footer.html >> html/ch3.html
 
+ftp : html/*
+	ftp -v< templates/upload.in
 clean :
 	rm -rf html
