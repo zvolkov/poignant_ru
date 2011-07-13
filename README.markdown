@@ -1,9 +1,10 @@
 Душевный Учебник по Руби
 ==========================
 
-Оригинал: Why's (Poignant) Guide to Ruby © 2003 why the lucky stiff  
-Перевод: Андрей Волков  
+Оригинал: Why's (poignant) Guide to Ruby
+Автор: why the lucky stiff
 Оригинал доступен по адресу: <http://mislav.uniqpath.com/poignant-guide/>
+Перевод: Андрей Волков
 
 
 
