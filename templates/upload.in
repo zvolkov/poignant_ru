@@ -1,6 +1,6 @@
 open ftp.zvolkov.com
 cd poignant_ru
-lcd html
+lcd publish/html
 prompt
 binary
 mput "*.*"

@@ -1,10 +1,9 @@
 html : book/* templates/*
-	rm -rf html
-	mkdir html
-	mkdir html/images
-	cp book/images/* html/images/
-	cp templates/guide.css html/
-	cp templates/index.html html/
+	mkdir -p html
+	mkdir -p html/images
+	cp -u book/images/* html/images/
+	cp -u templates/guide.css html/
+	cp -u templates/index.html html/
 	#ch1
 	cat templates/header.html > html/ch1.html
 	markdown book/ch1.markdown >> html/ch1.html
@@ -19,6 +18,10 @@ html : book/* templates/*
 	sed -e "s/chX/ch4/g" templates/footer.html >> html/ch3.html
 
 ftp : html/*
-	ftp -v< templates/upload.in
+	mkdir -p publish
+	rm -rf publish/*
+	tar -N .publish_stamp -cf - html/* | tar -x -C publish --overwrite
+	touch .publish_stamp
+	ftp -v < templates/upload.in
 clean :
 	rm -rf html
