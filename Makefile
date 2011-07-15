@@ -4,19 +4,9 @@ html : book/* templates/*
 	cp -u book/images/* html/images/
 	cp -u templates/guide.css html/
 	cp -u templates/index.html html/
-	#ch1
-	cat templates/header.html > html/ch1.html
-	markdown book/ch1.markdown >> html/ch1.html
-	sed -e "s/chX/ch2/g" templates/footer.html >> html/ch1.html
-	#ch2
-	cat templates/header.html > html/ch2.html
-	markdown book/ch2.markdown >> html/ch2.html
-	sed -e "s/chX/ch3/g" templates/footer.html >> html/ch2.html
-	#ch3
-	cat templates/header.html > html/ch3.html
-	markdown book/ch3.markdown >> html/ch3.html
-	sed -e "s/chX/ch4/g" templates/footer.html >> html/ch3.html
-
+	pandoc -f markdown -t html book/ch1.markdown -s --template=templates/chapter.template -c guide.css -V nextlink=ch2.html -V lang=ru -o html/ch1.html
+	pandoc -f markdown -t html book/ch2.markdown -s --template=templates/chapter.template -c guide.css -V nextlink=ch3.html -V lang=ru -o html/ch2.html
+	pandoc -f markdown -t html book/ch3.markdown -s --template=templates/chapter.template -c guide.css -o html/ch3.html -V lang=ru
 ftp : html/*
 	mkdir -p publish
 	rm -rf publish/*

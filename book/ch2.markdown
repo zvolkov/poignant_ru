@@ -1,6 +1,9 @@
+% Душевный Учебник по Руби — Глава 2
+% Why the lucky stiff; Andrei Volkov (translator)
+
 Глава 2. Ко–ни–чи–ва, Руби
-=================================
-![o](images/chapter.poignant.guide-2.jpg)
+=========================================
+![o](images/chapter.poignant.guide-2.jpg)\ 
 
 
 
