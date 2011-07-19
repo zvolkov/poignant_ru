@@ -319,7 +319,7 @@
 Можно постучаться в любую дверь и дать денег — и все обрадуются, а вот если сказать «вам случайно укротитель тигров не нужен?» — то могут и не понять.
 
 Если короче, глобальные переменные можно назначить в одном месте программы, а потом прочитать в любом другом месте.
-With blocks, you can group a set of instructions together so that they can be passed around your program. The curly braces give the appearance of crab pincers that have snatched the code and are holding it together. When you see these two pincers, remember that the code inside has been pressed into a single uni
+
 
 ### Переменные–атрибуты
 
