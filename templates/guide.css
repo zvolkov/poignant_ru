@@ -19,7 +19,8 @@ body {
 .page code {
     background-color: #FFFEF9;
     color: #936;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
+    font-size: 130%;
 }
 .page pre {
     background-color: #FFFEF9;
