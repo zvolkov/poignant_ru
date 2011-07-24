@@ -16,11 +16,14 @@ body {
     display:block;
     margin:0 auto;
 }
-.page pre {
+.page code {
     background-color: #FFFEF9;
     color: #936;
-    margin-left: 40px;
     font-weight: bolder;
+}
+.page pre {
+    background-color: #FFFEF9;
+    margin-left: 40px;
     border: solid 1px #C9B;
     padding: 5px;
 }
