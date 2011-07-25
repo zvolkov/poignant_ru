@@ -26,7 +26,17 @@ $if(html5)$
 $endif$
 $if(highlighting-css)$
   <style type="text/css">
-$highlighting-css$
+	code.sourceCode span.dv { color: #396; }
+	code.sourceCode span.fl { color: #396; }
+	code.sourceCode span.kw { font-weight: bolder; }
+	code.sourceCode span.bn { color: #40a070; }
+	code.sourceCode span.ch { color: #4070a0; }
+	code.sourceCode span.st { color: #396; background-color: #E9F5F5}
+	code.sourceCode span.co { color: gray; font-style: italic; }
+	code.sourceCode span.al { color: red; font-weight: bold; }
+	code.sourceCode span.fu { color: #06287e; }
+	code.sourceCode span.re { }
+	code.sourceCode span.er { color: red; font-weight: bold; }
   </style>
 $endif$
 $for(css)$
