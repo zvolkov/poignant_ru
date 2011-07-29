@@ -40,3 +40,9 @@ body {
 .page p {
     line-height: 150%;
 }
+.page blockquote {
+    font-style: italic;
+    font-size: larger;
+    color: #435;
+    margin: 0 40px;
+}
