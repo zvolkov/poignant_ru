@@ -46,3 +46,12 @@ body {
     color: #435;
     margin: 0 40px;
 }
+
+.figure {
+   float: right;
+   padding: 10px;
+}
+
+.figure .caption {
+    display: none;
+}
