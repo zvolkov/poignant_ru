@@ -55,3 +55,39 @@ body {
 .figure .caption {
     display: none;
 }
+
+.sidebar {
+    width: 280px;
+    float: right;
+    margin-left: -66px;
+    background-color: #EFF9ED;
+    font-size: smaller;
+    position: relative;
+    left: 80px;
+    border-right: solid 1px #CCC;
+    border-left: solid 1px #CCC;
+}
+
+.sidebar_content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sidebar h2 {
+    color: #555;
+    font-size: 1.2em;
+    border-bottom: solid 4px #CCC;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar h1 {
+    background-color: #7A8A9A;
+    color: #EFF9ED;
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+    font-size: 1.2em;
+}
+
