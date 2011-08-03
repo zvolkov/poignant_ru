@@ -91,3 +91,6 @@ body {
     font-size: 1.2em;
 }
 
+.sidebar ol {
+    -webkit-padding-start:15px;
+}
