@@ -34,16 +34,14 @@ html/help.html : book/help.markdown templates/chapter.template templates/google_
 .publish_stamp : 
 	touch .publish_stamp
 
-publish : 
-	mkdir publish
-
-prepare_for_publish : compile publish
-	rm -rf publish/*
+publish : html/*
+	mkdir -p publish
 	tar -N .publish_stamp -cf - html/* | tar -x -C publish --overwrite
 	touch .publish_stamp
 
-ftp : prepare_for_publish
+ftp : publish
 	ftp -v < templates/upload.in
+	rm -rf publish/html/*
 
 clean :
 	rm -rf html
