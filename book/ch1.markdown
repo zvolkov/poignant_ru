@@ -6,7 +6,7 @@
 ![o](images/chapter.poignant.guide-1.jpg)\ 
 
 
-![Удивительные истории](images/about.the.poignant.guide-1.png)\ 
+![Удивительные истории](images/about.the.poignant.guide-1.png?raw=true)\ 
 
 ![Понятно даже ребенку](images/about.the.poignant.guide-2.jpg)\ 
 
