@@ -3,14 +3,14 @@
 
 Глава 1. Вместо предисловия
 ============================
-![o](images/chapter.poignant.guide-1.jpg?raw=true)\ 
+![o](images/chapter.poignant.guide-1.jpg)\ 
 
 
-![Удивительные истории](images/about.the.poignant.guide-1.png?raw=true)\ 
+![Удивительные истории](images/about.the.poignant.guide-1.png)\ 
 
-![Понятно даже ребенку](images/about.the.poignant.guide-2.jpg?raw=true)\ 
+![Понятно даже ребенку](images/about.the.poignant.guide-2.jpg)\ 
 
-![Прозревший читатель](images/about.the.poignant.guide-3.png?raw=true)\ 
+![Прозревший читатель](images/about.the.poignant.guide-3.png)\ 
 
-![Пи-пи-пи](images/about.the.poignant.guide-4.png?raw=true)\ 
+![Пи-пи-пи](images/about.the.poignant.guide-4.png)\ 
 

@@ -3,7 +3,7 @@
 
 Глава 2. Ко–ни–чи–ва, Руби
 =========================================
-![o](images/chapter.poignant.guide-2.jpg?raw=true)\ 
+![o](images/chapter.poignant.guide-2.jpg)\ 
 
 
 
