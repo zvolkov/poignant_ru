@@ -3,7 +3,7 @@ compile : .publish_stamp html/images html/guide.css html/index.html html/ch1.htm
 html : 
 	mkdir html
 
-html/images : book/images/* | html
+html/images : book/images | html
 	mkdir -p html/images
 	cp -u book/images/* html/images/
 
