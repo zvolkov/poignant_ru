@@ -1,9 +1,10 @@
-% Душевный Учебник по Руби — Глава 4
-% Why the lucky stiff; Andrei Volkov (translator)
+\clearpage
 
 Глава 4. Листики кода кружат на ветру
 =======================================================
-![o](images/chapter_poignant_guide-4.jpg)\ 
+
+<img src="images/chapter_poignant_guide-4.jpg"/>
+\Oldincludegraphics[width=1.1in]{images/chapter_poignant_guide-4.jpg}
 
 ![Глубоко–глубоко в Пещерах Амбрэ, жил–был Эльф Сколбасой](images/the_elf-1.png) ![и чёрный кот по кличке Негыр](images/the_elf-2.png) Вообще–то, мы как–раз к Эльфу и пришли, он будет играть важную роль в сегодняшнем уроке. (Кстати, первый раз слышу про разумную колбасу — я думал они только на сковородках шкварчать умеют.)
 

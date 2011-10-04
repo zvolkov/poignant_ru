@@ -1,10 +1,13 @@
-% Душевный Учебник по Руби — Глава 1
-% Why the lucky stiff; Andrei Volkov (translator)
+% Душевный Учебник по Руби
+% автор: Why the lucky stiff; переводчик: Андрей Волков
+
+\clearpage
 
 Глава 1. Вместо предисловия
 ============================
-![o](images/chapter_poignant_guide-1.jpg)\ 
 
+<img src="images/chapter_poignant_guide-1.jpg"/>
+\Oldincludegraphics[width=1.1in]{images/chapter_poignant_guide-1.jpg}
 
 ![Удивительные истории](images/about_the_poignant_guide-1.png)\ 
 
