@@ -1,4 +1,6 @@
-compile : .publish_stamp html/images html/guide.css html/index.html html/ch1.html html/ch2.html html/ch3.html html/ch4.html html/copyright.html html/help.html 
+all : .publish_stamp html/images html/guide.css html/index.html html/ch1.html html/ch2.html html/ch3.html html/ch4.html html/copyright.html html/help.html 
+
+pdf : html/WpGtR_rus.pdf
 
 html : 
 	mkdir html
@@ -30,6 +32,9 @@ html/copyright.html : book/copyright.markdown templates/chapter.template templat
 
 html/help.html : book/help.markdown templates/chapter.template templates/google_analytics.inc | html
 	pandoc -f markdown -t html book/help.markdown -s --template=templates/chapter.template -c guide.css -o html/help.html -H templates/google_analytics.inc -V lang=ru
+
+html/WpGtR_rus.pdf : book/ch1.markdown book/ch2.markdown book/ch3.markdown book/ch4.markdown templates/latex.template book/images | html
+	cd book ; markdown2pdf -o ../html/WpGtR_rus.pdf --template=../templates/latex.template ch1.markdown ch2.markdown ch3.markdown ch4.markdown
 
 .publish_stamp : 
 	touch .publish_stamp
