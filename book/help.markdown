@@ -1,6 +1,3 @@
-% Душевный Учебник по Руби — Хотите помочь?
-% Why the lucky stiff; Andrei Volkov (translator)
-
 Хотите помочь?
 ================
 
