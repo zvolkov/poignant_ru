@@ -13,4 +13,3 @@
 ![Прозревший читатель](images/about_the_poignant_guide-3.png)\ 
 
 ![Пи-пи-пи](images/about_the_poignant_guide-4.png)\ 
-
