@@ -33,7 +33,7 @@ html/copyright.html : book/copyright.markdown book/author.markdown templates/cha
 html/help.html : book/help.markdown book/author.markdown templates/chapter.template templates/google_analytics.inc | html
 	pandoc -f markdown -t html book/author.markdown book/help.markdown -s --template=templates/chapter.template -c guide.css -o html/help.html -H templates/google_analytics.inc -V lang=ru
 
-html/WpGtR_rus.pdf : book/title.markdown book/author.markdown book/ch1.markdown book/ch2.markdown book/ch3.markdown book/ch4.markdown templates/latex.template book/images | html
+html/WpGtR_rus.pdf : book/copyright.markdown book/title.markdown book/author.markdown book/ch1.markdown book/ch2.markdown book/ch3.markdown book/ch4.markdown templates/latex.template book/images | html
 	cd book ; markdown2pdf -o ../html/WpGtR_rus.pdf --template=../templates/latex.template author.markdown title.markdown ch1.markdown ch2.markdown ch3.markdown ch4.markdown copyright.markdown
 
 .publish_stamp : 
