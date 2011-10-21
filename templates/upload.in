@@ -1,5 +1,5 @@
-open ftp.zvolkov.com
-cd poignant_ru
+open 66.228.45.28
+cd /srv/www/poignant.ru
 lcd publish/html
 prompt
 binary
