@@ -1,4 +1,4 @@
-open 66.228.45.28
+open poignant.ru
 cd /srv/www/poignant.ru
 lcd publish/html
 prompt
