@@ -1,10 +1,6 @@
-\clearpage
-
 Глава 1. Вместо предисловия
 ============================
-
-<img src="images/chapter_poignant_guide-1.jpg"/>
-\Oldincludegraphics[width=1.1in]{images/chapter_poignant_guide-1.jpg}
+![o](images/chapter_poignant_guide-1.jpg)\ 
 
 ![Удивительные истории](images/about_the_poignant_guide-1.png)\ 
 
