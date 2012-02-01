@@ -1,6 +1,6 @@
 body {
     font-family: Utopia, Georgia, Times, serif;
-    background-color: gray;
+    background-image: url(images/2006.pale.jpg);
 }
 .page h1 {
     text-align: center;
@@ -61,7 +61,7 @@ body {
     width: 280px;
     float: right;
     margin-left: -66px;
-    background-color: #EFF9ED;
+    background-image: url(images/2006.pale.jpg);
     font-size: smaller;
     position: relative;
     left: 80px;
@@ -94,4 +94,17 @@ body {
 
 .sidebar ol {
     -webkit-padding-start:15px;
+}
+
+#banner {
+    width: 960px;
+    padding-top: 10px;
+    margin:0 auto;
+}
+
+#banner .pager {
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: 11pt;
 }
