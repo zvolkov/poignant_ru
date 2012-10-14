@@ -17,12 +17,12 @@ body {
     margin:0 auto;
 }
 .page code {
-    background-color: #FFF5F9;
+    background-color: #FFFEF9;
     color: #936;
     font-size: 125%;
 }
 .page pre {
-    background-color: #FFF5F9;
+    background-color: #FFFEF9;
     margin-left: 40px;
     border: solid 1px #C9B;
     padding: 5px;
@@ -108,3 +108,20 @@ body {
     padding-right: 15px;
     font-size: 11pt;
 }
+
+.page hr {
+	border: none;
+	text-align: center;
+}
+
+.page hr::after {
+	content: "***";
+	letter-spacing: 2em;
+	font-size: 1.4em;
+}
+
+.sidebar .figure .caption {
+    display: block;
+	text-align: center;
+}
+
